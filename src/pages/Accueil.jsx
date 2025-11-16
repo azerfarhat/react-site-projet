@@ -4,13 +4,12 @@ import Services from '../components/Services';
 import WhyUs from '../components/WhyUs';
 
 function Accueil() {
-  return (
+    return (
     <>
-      <Hero />
-      <Services />
-      <WhyUs />
+        <Hero />
+        <Services />
+        <WhyUs />
     </>
-  );
+    );
 }
-
 export default Accueil;
